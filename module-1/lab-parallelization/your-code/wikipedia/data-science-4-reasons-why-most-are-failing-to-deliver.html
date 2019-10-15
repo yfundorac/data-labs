@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>  Data Science: 4 Reasons Why Most Are Failing to Deliver</title>
+<link href="/wp-content/themes/kdn17/images/favicon.ico" rel="shortcut icon"/>
+<link href="/wp-content/themes/kdn17/style.css" media="screen" rel="stylesheet" type="text/css"/>
+<script src="/wp-content/themes/kdn17/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/aps/kda_all.js" type="text/javascript"></script>
+<link href="/feed/" rel="alternate" title="KDnuggets: Analytics, Big Data, Data Mining and Data Science Feed" type="application/rss+xml"/>
+<meta content="Data Science: Some see billions in returns, but most are failing to deliver. This article explores some of the reasons why this is the case." name="description">
+<link href="https://www.kdnuggets.com/2018/05/data-science-4-reasons-failing-deliver.html" rel="canonical"/>
+<meta content="https://www.kdnuggets.com/data-science-4-reasons-why-most-are-failing-to-deliver.html/" property="og:url"/>
+<meta content="KDnuggets" property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="https://www.facebook.com/kdnuggets" property="article:author"/>
+<meta content="https://www.facebook.com/kdnuggets" property="article:publisher"/>
+<meta content="Data Science: 4 Reasons Why Most Are Failing to Deliver - KDnuggets" property="og:title"/>
+<meta content="Data Science: Some see billions in returns, but most are failing to deliver. This article explores some of the reasons why this is the case." property="og:description"/>
+<meta content="https://www.kdnuggets.com/images/comment.gif" property="og:image"/>
+<meta content="https://www.kdnuggets.com/images/comment.gif" property="og:image:secure_url"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="@kdnuggets" name="twitter:site"/>
+<meta content="@kdnuggets" name="twitter:creator"/>
+<meta content="Data Science: 4 Reasons Why Most Are Failing to Deliver - KDnuggets" name="twitter:title"/>
+<meta content="Data Science: Some see billions in returns, but most are failing to deliver. This article explores some of the reasons why this is the case." name="twitter:description"/>
+<meta content="https://www.kdnuggets.com/images/comment.gif" name="twitter:image"/>
+<link href="//s.w.org" rel="dns-prefetch"/>
+<link href="https://www.kdnuggets.com/feed" rel="alternate" title="KDnuggets » Feed" type="application/rss+xml"/>
+<link href="https://www.kdnuggets.com/comments/feed" rel="alternate" title="KDnuggets » Comments Feed" type="application/rss+xml"/>
+<link href="https://www.kdnuggets.com/2018/05/data-science-4-reasons-failing-deliver.html/feed" rel="alternate" title="KDnuggets » Data Science: 4 Reasons Why Most Are Failing to Deliver Comments Feed" type="application/rss+xml"/>
+<link href="https://www.kdnuggets.com/wp-json/" rel="https://api.w.org/"/>
+<link href="https://www.kdnuggets.com/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="https://www.kdnuggets.com/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<link href="https://www.kdnuggets.com/2018/05/frequentists-fight-back.html" rel="prev" title="Frequentists Fight Back"/>
+<link href="https://www.kdnuggets.com/2018/05/how-not-regulate-data-economy.html" rel="next" title="How Not to Regulate the Data Economy"/>
+<meta content="WordPress 4.9.11" name="generator"/>
+<link href="https://www.kdnuggets.com/?p=81392" rel="shortlink"/>
+<!-- BEGIN ExactMetrics v5.3.7 Universal Analytics - https://exactmetrics.com/ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-361129-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END ExactMetrics Universal Analytics -->
+</meta></head>
+<body class="post-template-default single single-post postid-81392 single-format-standard">
+<div class="main_wrapper"><!-- publ: 24-May, 2018  -->
+<div id="wrapper">
+<div id="header">
+<div id="header_log">
+<div class="logo">
+<a href="/"></a>
+</div>
+<h1>KDnuggets</h1>
+<div class="text-container">
+              <a href="/news/subscribe.html" target="_blank"><b>Subscribe to KDnuggets News</b></a>  |
+ <a href="https://twitter.com/kdnuggets" target="_blank"><img alt="Twitter" height="48" src="/images/tw_c48.png" style="vertical-align: bottom" width="48"/></a>   
+ <a href="https://www.facebook.com/kdnuggets" target="_blank"><img alt="Facebook" height="48" src="/images/fb_c48.png" style="vertical-align: bottom" width="48"/></a>   
+<a href="https://www.linkedin.com/groups/54257/" target="_blank"><img alt="LinkedIn" height="48" src="/images/in_c48.png" style="vertical-align: bottom" width="48"/></a> 
+ |  <a href="/contact.html"><b>Contact</b></a>
+</div>
+</div>
+<div class="search">
+<form action="/" id="searchform" method="get">
+<input id="s" name="s" placeholder="search KDnuggets" type="text" value=""/>
+<input type="submit" value="Search"/></form>
+</div>
+<div href="#" id="pull">
+<img class="menu" src="/images/menu-30.png">
+<div class="logo">
+<a href="/"></a>
+</div>
+<img class="search-icon" src="/images/search-icon.png">
+</img></img></div>
+<div id="pull-menu">
+<div class="navigation"><ul class="menu" id="menu-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1070" id="menu-item-1070"><a href="/software/index.html" title="Data Science Software">SOFTWARE</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13756" id="menu-item-13756"><a href="/news/index.html" title="News">News/Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46286" id="menu-item-46286"><a href="/news/top-stories.html">Top stories</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42152" id="menu-item-42152"><a href="https://www.kdnuggets.com/opinions/index.html" title="Opinions">Opinions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46415" id="menu-item-46415"><a href="https://www.kdnuggets.com/tutorials/index.html">Tutorials</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13364" id="menu-item-13364"><a href="/jobs/index.html" title="Jobs in Analytics, Data Science">JOBS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63505" id="menu-item-63505"><a href="https://www.kdnuggets.com/companies/index.html">Companies</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13366" id="menu-item-13366"><a href="/courses/index.html">Courses</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1499" id="menu-item-1499"><a href="https://www.kdnuggets.com/datasets/index.html">Datasets</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14286" id="menu-item-14286"><a href="https://www.kdnuggets.com/education/index.html" title="Education in Analytics, Big Data, Data Science">EDUCATION</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51558" id="menu-item-51558"><a href="https://www.kdnuggets.com/education/analytics-data-mining-certificates.html" title="Certificates in Analytics, Big Data, Data Science">Certificates</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14752" id="menu-item-14752"><a href="/meetings/index.html">Meetings</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13721" id="menu-item-13721"><a href="/webcasts/index.html" title="Webcasts and Webinars">Webinars</a></li>
+</ul></div></div>
+</div> <!--#header end-->
+<div id="spacer">
+          
+      </div>
+<div id="content_wrapper">
+<div id="ad_wrapper">
+<script type="text/javascript">
+	jQuery(function() {
+   	    var pull        = $('#pull');
+            menu        = $('#header .navigation ul');
+            menuImage = $('#header img.menu');
+            mobileMenu        = $('#pull-menu-mobile');
+            search = $('img.search-icon');
+            searchBar = $('div.search');
+            searchClick = false;
+            search.on('click', function() {
+                  searchBar.slideToggle();
+                  searchClick = true;
+            });  
+     	    $(menuImage).on('click', function(e) {
+	        //e.preventDefault();
+                if (!searchClick) {
+                  menu.slideToggle();
+                }
+                searchClick = false;
+	    });
+           /* pullMobile.on('click', function(e) {
+              e.preventDefault();
+                if (!searchClick) {
+                  mobileMenu.slideToggle();
+                }
+                searchClick = false;
+	    });*/
+            
+	});
+	kpath = '/'; kda_top(); kda_sid_init(); kda_sid_n=3;
+	</script>
+</div> <div class="breadcumb">
+<br/>
+<a href="/">KDnuggets Home</a> » <a href="/news/index.html">News</a> » <a href="/2018/index.html">2018</a> » <a href="https://www.kdnuggets.com/2018/05/index.html">May</a> » <a href="https://www.kdnuggets.com/2018/05/opinions-interviews.html">Opinions, Interviews</a> » Data Science: 4 Reasons Why Most Are Failing to Deliver ( <a href="/2018/n22.html">18:n22</a> )    </div>
+<div class="single" id="content">
+<div id="post-header">
+<h1 id="title">Data Science: 4 Reasons Why Most Are Failing to Deliver</h1>
+<div class="pagi">
+<div class="pagi-left">
+<a href="https://www.kdnuggets.com/2018/05/frequentists-fight-back.html" rel="prev">&lt;= <strong>Previous post</strong></a></div>
+<div class="pagi-right">
+<a href="https://www.kdnuggets.com/2018/05/how-not-regulate-data-economy.html" rel="next"><strong>Next post</strong> =&gt;</a></div>
+<br/> <br/> 
+    <div class="addthis_native_toolbox"></div>
+</div>
+<div class="tag-data">Tags: <a href="https://www.kdnuggets.com/tag/data-science" rel="tag">Data Science</a>, <a href="https://www.kdnuggets.com/tag/deployment" rel="tag">Deployment</a>, <a href="https://www.kdnuggets.com/tag/domino" rel="tag">Domino</a>, <a href="https://www.kdnuggets.com/tag/failure" rel="tag">Failure</a>, <a href="https://www.kdnuggets.com/tag/production" rel="tag">Production</a></div>
+<br/>
+<p class="excerpt">
+     Data Science: Some see billions in returns, but most are failing to deliver. This article explores some of the reasons why this is the case.
+  </p>
+</div>
+<div id="post-header-ad">
+<script type="text/javascript">kda_sid_write(1); kda_sid_n=2;</script>
+</div>
+<hr class="grey-line"/><br/>
+<div class="post" id="post-">
+<div align="right"><img alt="c" height="12" src="/images/comment.gif" width="16"/> <a href="#comments">comments</a></div>
+<p><b>By <a href="https://www.linkedin.com/in/nick-elprin-0b30a038/">Nick Elprin</a>, CEO and Co-Founder, Domino Data Lab</b></p>
+<p><img src="https://www.kdnuggets.com/wp-content/uploads/data-science-field.jpg" width="500"/></p>
+<p>One of today’s organizational dilemmas: it’s pretty well understood that data science is a key driver of innovation, but few organizations know how to consistently turn data science output into business value. Sixty percent of companies plan to double the size of their data science teams in 2018. Ninety percent believe data science contributes to business innovation. However, less than nine percent can actually quantify the business impact of all their models, and only 11 percent can claim more than 50 predictive models working in production. This data stems from a recent <a href="https://www.dominodatalab.com/resources/key-factors-journey-become-model-driven/">survey</a> of more than 250 data science leaders and practitioners.</p>
+<p>What’s at the root of the disconnect? There is a divide between organizations that view data science as a technical practice and those that go further to embrace data science as an organizational capability woven throughout the business fabric. Companies that have mastered the technical and management practices necessary to embed algorithmic-driven decision-making at the core of the business are reaping the most returns. They can be considered “model-driven.” (Think of Amazon, Netflix, Stitch Fix and Tesla as examples.)</p>
+<p><img align="right" src="https://www.kdnuggets.com/wp-content/uploads/analytics-failure.jpg" width="250"/></p>
+<p>Of course, that’s easier said than done. Let’s zero in on four of the toughest challenges that are emerging in organizations struggling to derive value from their investments in data science (which, by the way, are the majority):</p>
+<ol>
+<li><strong>Silos of knowledge. </strong>Hiring data scientists does not guarantee that your organization will profit from data science. For most firms, adding a data scientist to the team does not generate the same output as previous data scientists — you get diminishing returns to scale, instead of the exponential returns that high-functioning data science teams achieve. A recurring theme is that data scientists working on individual laptops or other siloed environments often duplicate efforts. They don’t have visibility into what work has been done by others that they could benefit from. One major insurance company, for instance, had dozens of scientists working in uncoordinated ways on the same business problems — leading to lost investment and missed opportunities. There’s a difference, in other words, between having a collection of individuals who create models, and having a dynamic team capable of leveraging its collective knowledge, skills and past work to collaboratively build better and better models with faster time to value.
+</li>
+<li><strong>Friction in model deployment. </strong>Well-run data science teams operate within a continuous and iterative lifecycle — from research to production, and back - and measure the impact of models in production. Unfortunately, the research process is too often completely separate from model deployment process - and when (if) a model is deployed there is no link to business impact. If this rings true to you, then your organization likely cannot iterate on models that are deployed to improve them and worse yet, fails to measure business impact of their models. One major financial services firm said they “build their new headquarters in less time than it took to get a model into production.”
+</li>
+<li><strong>Tool and technology mismatch</strong>. IT departments have spent the last decade-plus building a big data infrastructure to support data storage and processing – but that infrastructure doesn’t necessarily lend itself to data science. Data scientists can use as many as 3-5 different tools or packages monthly, leveraging the latest packages consistently. There were over 365,000 updates to the popular open-source programming language Python in 2017 alone! Furthermore, data science work demands access to elastic compute to perform specific experiments, like deep learning that requires powerful machines with GPUs. Lacking access to elastic compute and the latest tools limits your team’s agility,  constrains the pace of research - and results in delayed development.  Even worse, sometimes the result is shadow IT, as was the case with a large global bank where it took so long to approve new Python packages that data scientists ended up bringing their personal laptops to work and covertly using them.
+</li>
+<li><strong>Model liability. </strong>Without proper management, a model in production may do more harm than good. If you are actively managing models in production, then you’ve likely realized this. A model that is not tightly monitored or actively controlled can cause serious harm to the business, either in the form of compliance failures, revenue losses, damage to brand or reputation. Knight Capital Group, for instance, <a href="https://dealbook.nytimes.com/2012/08/02/knight-capital-says-trading-mishap-cost-it-440-million/">lost $440 million in 45 minutes</a> after a mistake in updating a model. This is an extreme scenario, but makes the case that organizations must continually validate and monitor their models for misuse and performance degradation.</li>
+</ol>
+<p>How these four challenges are addressed will determine much of how the next five to ten years looks for your organization. If you’d consider your company a laggard with respect to data science maturity, seek consolation in the fact that you’re not alone: some 46 percent of all survey respondents, in fact, fell into the laggard category. Forty percent are considered “aspiring,” and a mere 14 percent rose to the top and demonstrated ability to manage data science as an organizational capability.</p>
+<p>It’s not too late. To start delivering and measuring business value from data science, your organization must develop and implement a consistent and sensible framework around people, process, and technology. Companies that put the time and energy into this framework, and that successfully leverage data science as a core business competency, are reaping the rewards. Netflix, for example, integrates models into each part of their business; they estimate <a href="http://www.businessinsider.com/netflix-recommendation-engine-worth-1-billion-per-year-2016-6">a billion dollars</a> in incremental value from their personalization and recommendation models alone.</p>
+<p>The message is clear: achieving success with data science is not easy. There are significant barriers that must be overcome. But ultimately, those that solve the hard problems -- figuring out how to develop and deploy and high-impact models at scale, and truly instrumenting their businesses with data science -- are better equipped to leverage them for competitive advantage over the long term.</p>
+<p><b>Bio: <a href="https://www.linkedin.com/in/nick-elprin-0b30a038/">Nick Elprin</a></b> is CEO and Cofounder of Domino Data Lab. He received MS in Computer Science from Harvard in 2005.</p>
+<p><b>Related:</b></p>
+<ul class="three_ul">
+<li><a href="https://www.kdnuggets.com/2018/05/scientific-debt.html">Scientific debt – what does it mean for Data Science?</a></li>
+<li><a href="https://www.kdnuggets.com/2018/03/databricks-solving-4-big-problems-data-science.html">[eBook] Solving 4 Big Problems in Data Science</a></li>
+<li><a href="https://www.kdnuggets.com/2017/07/olavlaudy-turn-data-science-projects-into-success.html">How to Turn your Data Science Projects into a Success</a></li>
+</ul>
+<p><a name="comments"></a></p>
+<div id="disqus_thread"></div>
+<p> <script type="text/javascript">
+ var disqus_shortname = 'kdnuggets'; 
+ (function() { var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = 'https://kdnuggets.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })();
+ </script></p>
+</div>
+<div class="page-link"></div>
+<div class="pagi">
+<hr class="grey-line"/>
+<div class="pagi-left">
+<a href="https://www.kdnuggets.com/2018/05/frequentists-fight-back.html" rel="prev">&lt;= <strong>Previous post</strong></a></div>
+<div class="pagi-right">
+<a href="https://www.kdnuggets.com/2018/05/how-not-regulate-data-economy.html" rel="next"><strong>Next post</strong> =&gt;</a></div>
+<br/><br/>
+<div>
+<hr class="grey-line"/><br/>
+<h2>Top Stories Past 30 Days</h2>
+<table align="center" cellpadding="3" cellspacing="10" class="latn" width="100%">
+<tr>
+<td valign="top" width="50%">
+<table cellpadding="3" cellspacing="2">
+<tr><th><b>Most Popular</b></th></tr>
+<tr><td>
+<ol class="three_ol"><li> <a href="/2019/09/core-hot-data-science-skills.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-mp-1-hot');"><b>Which Data Science Skills are core and which are hot/emerging ones?</b></a>
+<li> <a href="/2019/10/last-sql-guide-data-analysis-ever-need.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-mp-2-sql');"><b>The Last SQL Guide for Data Analysis Youll Ever Need</b></a>
+<li> <a href="/2019/09/10-great-python-resources-aspiring-data-scientists.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-mp-3-py-res');"><b>10 Great Python Resources for Aspiring Data Scientists</b></a>
+<li> <a href="/2019/10/european-approach-masters-data-science.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-mp-4-european');"><b>A European Approach to Masters Degrees in Data Science</b></a>
+<li> <a href="/2019/09/future-analytics-data-science.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-mp-5-future');"><b>The Future of Analytics and Data Science</b></a>
+<li> <a href="/2019/09/getting-hired-data-scientist-sought-data.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-mp-6-sought');"><b>I wasn't getting hired as a Data Scientist. So I sought data on who is.</b></a>
+<li> <a href="/2019/06/select-rows-columns-pandas.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-mp-7-pandas');"><b>How to select rows and columns in Pandas using [ ], .loc, iloc, .at and .iat</b></a>
+</li></li></li></li></li></li></li></ol>
+</td></tr>
+</table>
+</td> <td valign="top">
+<table cellpadding="3" cellspacing="2">
+<tr><th><b>Most Shared</b></th></tr>
+<tr><td><ol class="three_ol">
+<li> <a href="/2019/09/core-hot-data-science-skills.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-ms-1-hot');"><b>Which Data Science Skills are core and which are hot/emerging ones?</b></a>
+<li> <a href="/2019/10/10-free-top-notch-courses-natural-language-processing.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-ms-2-nlp-courses');"><b>10 Free Top Notch Natural Language Processing Courses</b></a>
+<li> <a href="/2019/09/journey-software-engineer-bi-data-scientist.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-ms-3-journey');"><b>My journey path from a Software Engineer to BI Specialist to a Data Scientist</b></a>
+<li> <a href="/2019/09/know-data-part-1.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-ms-4-know-data');"><b>Know Your Data: Part 1</b></a>
+<li> <a href="/2019/09/famous-deep-learning-courses-schools-2019.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-ms-5-famous');"><b>5 Famous Deep Learning Courses/Schools of 2019</b></a>
+<li> <a href="/2019/09/ai-transform-healthcare.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-ms-6-healthcare-ai');"><b>How AI will transform healthcare (and can it fix the US healthcare system?)</b></a>
+<li> <a href="/2019/09/explore-world-bioinformatics-machine-learning.html" onclick="ga('send','pageview','/x/pbc/2019/10-14-ms-7-bioinformatics');"><b>Explore the world of Bioinformatics with Machine Learning</b></a>
+</li></li></li></li></li></li></li></ol>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<!--#content end--></div>
+<div id="sidebar">
+<div class="latn">
+<h3><b><a href="/news/index.html">Latest News</a></b></h3>
+<ul style="font-size:14px; margin-top:5px">
+<li> <a href="https://www.kdnuggets.com/2019/10/mathworks-reinforcement-learning.html">Three Things to Know About Reinforcement Learning</a><li> <a href="https://www.kdnuggets.com/2019/10/choosing-machine-learning-model.html">Choosing a Machine Learning Model</a><li> <a href="https://www.kdnuggets.com/2019/10/using-neural-networks-design-neural-networks-definitive-guide-understand-neural-architecture-search.html">Using Neural Networks to Design Neural Networks: The De...</a><li> <a href="https://www.kdnuggets.com/2019/10/top-news-week-1007-1013.html">Top Stories, Oct 7-13: 10 Free Top Notch Natural Langua...</a><li> <a href="https://www.kdnuggets.com/2019/10/overview-density-estimation.html">An Overview of Density Estimation</a><li> <a href="https://www.kdnuggets.com/2019/10/domino-machine-learning-monitoring-models-production.html">Upcoming Webinar, Machine Learning Vital Signs: Metrics...</a></li></li></li></li></li></li></ul>
+</div>
+<div>
+<script type="text/javascript">kda_sid_write(kda_sid_n);</script>
+</div>
+<br/><table cellpadding="3" class="thb" width="100%"><tr><th class="thb"><font size="+1">Top Stories<br/>Last Week</font></th></tr></table></div></div></div></div></body></html>
+<tr><td align="left"><b><font size="+1"><a href="https://www.kdnuggets.com/2019/10/top-news-week-1007-1013.html" target="_blank">Most Popular</a></font></b>
+<ol class="three_ol">
+<li><a href="/2019/10/last-sql-guide-data-analysis-ever-need.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-mp-1-sql');"><b>The Last SQL Guide for Data Analysis You'll Ever Need</b><br><br><img align="center" alt="SQL" src="/wp-content/uploads/sql-joins-small.jpg" width="250"/></br></br></a>
+<li><a href="/2019/10/10-free-top-notch-courses-natural-language-processing.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-mp-2-nlp-courses');"><b>10 Free Top Notch Natural Language Processing Courses</b></a>
+<li><a href="/2019/09/10-great-python-resources-aspiring-data-scientists.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-mp-3-py-resources');"><b>10 Great Python Resources for Aspiring Data Scientists</b></a>
+<li><a href="/2019/10/4-quadrants-data-science-skills-data-visualization.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-mp-4-quadrants');"><b>The 4 Quadrants of Data Science Skills and 7 Principles for Creating a Viral Data Visualization</b></a>
+<li><a href="/2019/09/core-hot-data-science-skills.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-mp-5-hot');"><b>Which Data Science Skills are core and which are hot/emerging ones?</b></a>
+<li><a href="/2019/10/openai-tried-train-ai-agents-play-hide-seek-instead-shocked-learned.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-mp-6-openai');"><b>OpenAI Tried to Train AI Agents to Play Hide-And-Seek but Instead They Were Shocked by What They Learned</b></a>
+<li><a href="/2019/06/select-rows-columns-pandas.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-mp-7-pandas');"><b>How to select rows and columns in Pandas using [ ], .loc, iloc, .at and .iat</b></a>
+</li></li></li></li></li></li></li></ol>
+<br/> <br/><b><font size="+1"><a href="https://www.kdnuggets.com/2019/10/top-news-week-1007-1013.html" target="_blank">Most Shared</a></font></b>
+<ol class="three_ol">
+<li><a href="/2019/10/10-free-top-notch-courses-natural-language-processing.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-ms-1-nlp-courses');"><b>10 Free Top Notch Natural Language Processing Courses</b></a>
+<li><a href="/2019/10/activation-maps-deep-learning-models-lines-code.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-ms-2-act-maps');"><b>Activation maps for deep learning models in a few lines of code</b></a>
+<li><a href="/2019/10/4-quadrants-data-science-skills-data-visualization.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-ms-3-quadrants');"><b>The 4 Quadrants of Data Science Skills and 7 Principles for Creating a Viral Data Visualization</b></a>
+<li><a href="/2019/10/openai-tried-train-ai-agents-play-hide-seek-instead-shocked-learned.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-ms-4-openai');"><b>OpenAI Tried to Train AI Agents to Play Hide-And-Seek but Instead They Were Shocked by What They Learned</b></a>
+<li><a href="/2019/10/beyond-word-embedding-document-embedding.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-ms-5-doc-embed');"><b>Beyond Word Embedding: Key Ideas in Document Embedding</b></a>
+<li><a href="/2019/10/introduction-artificial-neural-networks.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-ms-6-intro-ann');"><b>Introduction to Artificial Neural Networks</b></a>
+<li><a href="/2019/10/8-paths-machine-learning-job-interview.html" onclick="ga('send','pageview','/x/sbm/2019/10-14-ms-7-8-paths');"><b>8 Paths to Getting a Machine Learning Job Interview</b></a>
+</li></li></li></li></li></li></li></ol></td></tr>
+
+<div class="breadcrumbs_bottom">
+<div class="breadcumb">
+<br>
+<a href="/">KDnuggets Home</a> » <a href="/news/index.html">News</a> » <a href="/2018/index.html">2018</a> » <a href="https://www.kdnuggets.com/2018/05/index.html">May</a> » <a href="https://www.kdnuggets.com/2018/05/opinions-interviews.html">Opinions, Interviews</a> » Data Science: 4 Reasons Why Most Are Failing to Deliver ( <a href="/2018/n22.html">18:n22</a> )    </br></div>
+</div>
+<!--#content_wrapper end-->
+<br>
+<div id="footer">
+<br/>© 2019 KDnuggets. <a href="/about/index.html">About KDnuggets</a>.  <a href="/news/privacy-policy.html">Privacy policy</a>. <a href="/terms-of-service.html">Terms of Service</a><br/> 
+<div class="kd_bottom">
+<div class="footer-container">
+<div class="footer-news">
+<a href="/news/subscribe.html" onclick="ga('send','pageview','/x/bot/sub');" target="_blank"><b>Subscribe to KDnuggets News</b></a>
+</div>
+<div class="footer-sm">
+<a href="https://twitter.com/kdnuggets" onclick="ga('send','pageview','/x/bot/twt');" target="_blank"><img height="32" src="/images/tw_c48.png" width="32"/></a>
+<a href="https://facebook.com/kdnuggets" onclick="ga('send','pageview','/x/bot/fb');" target="_blank"><img alt="Facebook" height="32" src="/images/fb_c48.png" width="32"/></a>
+<a href="https://www.linkedin.com/groups/54257" onclick="ga('send','pageview','/x/bot/in');" target="_blank"><img alt="LinkedIn" height="32" src="/images/in_c48.png" width="32"/></a>
+</div>
+</div>
+<div class="close-footer">X</div>
+</div>
+<script type="text/javascript">
+  jQuery('.close-footer').click(
+      function(){       
+         jQuery('.kd_bottom').hide();
+      }
+   );
+</script> </div>
+<div class="clear"><!--blank--></div>
+</br>
+<div style="display: none;"><div id="boxzilla-box-82996-content"><script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.1.14 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form class="mc4wp-form mc4wp-form-77281" data-id="77281" data-name="Subscribe to KDnuggets News" id="mc4wp-form-1" method="post"><div class="mc4wp-form-fields"><div class="header-container">
+<img align="left" src="/wp-content/uploads/envelope.png"><a href="/news/subscribe.html">Get KDnuggets, a leading newsletter on AI, 
+  Data Science, and Machine Learning</a>
+</img></div>
+<div class="form-fields">
+<div class="field-container"><label>Email:</label><input maxlength="60" name="EMAIL" placeholder="Your email" required="" size="30" type="email"/></div>
+<div class="field-container submit-container">
+<div class="form-button" onclick="document.getElementById('mc4wp-form-1').submit()">Sign Up</div>
+<p style="font-size:9px">By subscribing you accept KDnuggets <a href="https://www.kdnuggets.com/news/privacy-policy.html" style="font-size:9px" target="_blank">Privacy Policy</a></p>
+</div>
+</div>
+<label style="display: none !important;">Leave this field empty if you're human: <input autocomplete="off" name="_mc4wp_honeypot" tabindex="-1" type="text" value=""/></label><input name="_mc4wp_timestamp" type="hidden" value="1571107491"/><input name="_mc4wp_form_id" type="hidden" value="77281"/><input name="_mc4wp_form_element_id" type="hidden" value="mc4wp-form-1"/></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->
+</div></div><script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><script type="text/javascript">
+/* <![CDATA[ */
+var boxzilla_options = {"testMode":"","boxes":[{"id":82996,"icon":"&times;","content":"","css":{"background_color":"#eeee22","width":600,"border_width":2,"border_style":"double","position":"center"},"trigger":{"method":"time_on_page","value":"3"},"animation":"fade","cookie":{"triggered":0,"dismissed":336},"rehide":true,"position":"center","screenWidthCondition":{"condition":"larger","value":500},"closable":true,"post":{"id":82996,"title":"Subscribe to KDnuggets","slug":"subscribe-to-kdnuggets"}}]};
+/* ]]> */
+</script>
+<script src="https://www.kdnuggets.com/wp-content/plugins/boxzilla/assets/js/script.min.js?ver=3.2.5" type="text/javascript"></script>
+<script src="https://www.kdnuggets.com/wp-includes/js/wp-embed.min.js?ver=4.9.11" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script src="https://www.kdnuggets.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.1.14" type="text/javascript"></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='https://www.kdnuggets.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.1.14'></script>
+<![endif]-->
+<!--/.main_wrapper-->
+<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=gpsaddthis" type="text/javascript"></script>
+
+
+<!-- Dynamic page generated in 0.819 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-10-14 22:44:51 -->
+<!-- Compression = gzip -->
