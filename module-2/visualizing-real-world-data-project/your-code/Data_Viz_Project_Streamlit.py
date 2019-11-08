@@ -14,7 +14,7 @@ st.title("Data Visualization Project")
 st.write("Trending YouTube Video Statistics - US Videos")
 st.write("Dataframe:")
 
-data = pd.read_csv('../Downloads/USvideos.csv')
+data = pd.read_csv('USvideos.csv')
 
 st.write(data[:1000])
 
